@@ -8,8 +8,8 @@ export default defineConfig({
 	build: {
 		rollupOptions: {
 			output: {
-				entryFileNames: "build.js",
-				manualChunks: false,
+				entryFileNames: "index.js",
+				assetFileNames: "index.css",
 			},
 		},
 	},
