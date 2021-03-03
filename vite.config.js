@@ -5,6 +5,14 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+	build: {
+		rollupOptions: {
+			output: {
+				entryFileNames: "build.js",
+				manualChunks: false,
+			},
+		},
+	},
 	plugins: [reactRefresh()],
 	css: {
 		preprocessorOptions: {
