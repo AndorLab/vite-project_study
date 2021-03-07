@@ -9,12 +9,14 @@
   "dependencies": {
     "@ahooksjs/use-request": "^2.8.3",
     "antd": "^4.12.3",
+    "less": "^4.1.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react-refresh": "^1.1.0",
+    "autoprefixer": "^10.2.5",
     "vite": "^2.0.1"
   }
 }
